@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login</title>
+</head>
+<body>
+    <h1>Login</h1>
+    <form method="POST" action="./login" id="form">
+        <label>Usuario</label>
+        <input type="text" name="name">
+        <br>
+        <label>Contraseña</label>
+        <input type="password" name="password" >
+        <br>
+        <input type="submit" value="Login">
+        <button type="button" class="btn btn-primary" onclick="window.location.href = '/api/v1/register'">Register</button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Insertar jugador</title>
+</head>
+<body>
+    <h1>Editar jugador</h1>
+    <form method="POST" action="./edit/<%=element._id%>" id="form">
+        <label>Id</label>
+        <input type="text" name="id" value="<%=element.id%>">
+        <br>
+        <label>Name</label>
+        <input type="text" name="name" value="<%=element.name%>">
+        <br>
+        <label>Birthdate</label>
+        <input type="text" name="birthdate" value="<%=element.birthdate%>">
+        <br>
+        <label>Nationality</label>
+        <input type="text" name="nationality" value="<%=element.nationality%>">
+        <br>
+        <label>TeamId</label>
+        <input type="text" name="teamId" value="<%=element.teamId%>">
+        <br>
+        <label>Position</label>
+        <input type="text" name="position" value="<%=element.position%>">
+        <br>
+        <label>Number</label>
+        <input type="text" name="number" value="<%=element.number%>">
+        <br>
+        <label>LeagueId</label>
+        <input type="text" name="leagueId" value="<%=element.leagueId%>">
+        <br>
+        <input type="submit" class="form-submit" value="Insertar" name="submit">
+    </form>
+</body>
+</html>
